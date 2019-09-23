@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let minute = parseInt(prompt("Nhap so phut da su dung"));
+    if(minute>200){
+        let cost = (minute-200)*200+150*400+50*600;
+        alert("Cuoc phi ban phai tra la :"+cost+" VND");
+    }else if(minute>50){
+        let cost = (minute-50)*400+50*600;
+        alert("Cuoc phi ban phai tra la :"+cost+" VND");
+    }else{
+        let cost =minute*600;
+        alert("Cuoc phi ban phai tra la :"+cost+" VND");
+    }
+</script>
+</body>
+</html>

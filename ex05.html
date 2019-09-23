@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt("Nhap diem bai kiem tra :"));
+    let b = parseInt(prompt("Nhap diem thi giua ky :"));
+    let c = parseInt(prompt("Nhap diem thi cuoi ky :"));
+    let avg = a*10/100+b*30/100+c*60/100;
+    if(avg>=8.5){
+        alert("Hoc sinh xep loai Gioi");
+    }else if(avg >=6.5){
+        alert("Hoc sinh xep loai Kha");
+    }else if(avg>=4){
+        alert("Hoc sinh xep loai Trung binh");
+    }else {
+        alert("Hoc sinh xep loai Yeu");
+    }
+</script>
+</body>
+</html>
